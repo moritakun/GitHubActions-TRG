@@ -1,0 +1,22 @@
+# 実行環境情報が含まれる
+*.tfstate
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# プラグイン、キャッシュファイルが含まれる
+.terraform/
+
+# Variable override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# 機密情報を含むファイル .tfvars
+*.tfvars
+
+# ロックファイル。プラグインバージョンの整合性を保つために必要。チーム開発では共有する場合もある。
+# .terraform.lock.hcl
+
